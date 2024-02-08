@@ -79,6 +79,6 @@ export class SchoolController {
     }
     // Remove the student from the students array
     const deletedStudent = this.students.splice(index, 1)[0];
-    return deletedStudent
+    return deletedStudent;
   }
 }
